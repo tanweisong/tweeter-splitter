@@ -1,0 +1,29 @@
+.App {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  min-width: 460px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.tweet {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.block {
+  display: block;
+}
+
+.error > div {
+  background-color: #d32f2f;
+}
